@@ -174,3 +174,52 @@ input[type="submit"] {
     cursor: pointer;
 }
 
+@media only screen and (max-width: 768px) {
+    #section1 img,
+    #section2 img,
+    #section4 img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .table-container {
+        overflow-x: auto; 
+        margin-bottom: 20px; 
+    }
+
+    table {
+        width: 100%; 
+    }
+
+    th, td {
+        padding: 10px; 
+    }
+    
+}
+
+@media only screen and (min-width: 769px) {
+    #section1 img,
+    #section2 img,
+    #section4 img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .table-container {
+        overflow-x: auto; 
+        margin-bottom: 20px; 
+    }
+
+    table {
+        width: 100%; 
+    }
+
+    th, td {
+        padding: 10px; 
+    }
+    
+}
