@@ -196,6 +196,10 @@ input[type="submit"] {
     th, td {
         padding: 10px; 
     }
+
+    form {
+        width: 100%;
+    }
     
 }
 
@@ -220,6 +224,10 @@ input[type="submit"] {
 
     th, td {
         padding: 10px; 
+    }
+
+    form {
+        width: 100%;
     }
     
 }
