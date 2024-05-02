@@ -120,8 +120,6 @@ As this is a one page website a scroll to top button, using Javascript, was adde
 - Videos and updates from projects that took place.
 - When the brand is ready to launch and they start selling clothes, an ecommerce feature will be added. 
 
-Added favicon following https://www.w3schools.com/html/html_favicon.asp
-
 # Testing
 First HTML testing through W3 validator returned syntax errors with extra slashes added to the end of images which was related to the HTML version, which were fixed. Also returned errors related to Calendly iframe. The code in the iframe wasn't changed as it affected the calendar that is needed to book alterations. 
 
@@ -138,3 +136,63 @@ No errors reported on CSS validation for both pages.
 
 ![landingpagecss](https://beyondthesight.net/Mariana/Fashion/Images/read/cssvalidation.png)
 ![thankyoupagecss](https://beyondthesight.net/Mariana/Fashion/Images/read/thankyoucss.png)
+
+Tested website using lighthouse. Although for a one page website the score is not as low. Future alterations can improve rating. 
+
+![lighthouse](https://beyondthesight.net/Mariana/Fashion/Images/read/lighthousecheck.png)
+
+# Libraries and Programs used
+- Github: Store Repository
+- Gitpod: Creation of HTML, CSS. Javascript and ReadMe
+- CDN Fonts: Font family 'Sans Serife' and 'Meringue'
+- Canva: Creation of banner image
+- Google Chrome Dev Tools: Styling media queries and testing with lighthouse.
+- Ionos: Image storage
+- W3: Code validation
+
+# Deployment & Usage
+
+
+### Deployment
+1. In the GitHub repositories, navigate your way to the settings tab
+2. From there on your left hand side find the 'Pages' tab, click on it.
+3. In the build and deployment section, select 'source' and then 'deploy from a branch'
+4. Then underneath that select 'main' and 'root'
+5. Click save
+6. Your page should refresh automatically or manually with a link to your deployed website.
+7. The link can be found here: <https://mrnzvd.github.io/fashion-up>
+
+
+### How to Fork
+- Log in (or sign up) to [Github](https://github.com/).
+- Go to respository for this project [Fashion Up](https://github.com/mrnzvd/fashion-up).
+- Click the fork button in the top right corner.
+
+
+### How to Clone
+- Log in (or sign up) to [Github](https://github.com/).
+- Go to respository for this project [Fashion Up](https://github.com/mrnzvd/fashion-up).
+- Click on the code button, select whether you would like to clone with HTTPS, SSH, GitHub CLI and copy the link shown.
+- Open the terminal in your code editor and change the current working directory to the location you want to use for the clone directory.
+- Type 'git clone' into terminal and then paste the link you copied in step 3.
+- Press enter.
+
+# Credits
+
+### Content
+
+- HTML, CSS and Javascript code were created following [Code Institute course](https://codeinstitute.net).
+- [W3 schools](https://www.w3schools.com) was used for code inspiration.
+- ReadMe inspiration: [Potters Club](https://github.com/SaskiaPacker/potters-club), [Ghost Cod Team](https://github.com/alakeldev/ghost-cod-team-website-pp1) and [Nacka Tomato Society](https://github.com/Pelikantapeten/p1-nacka-tomato-society).
+- Favicon was added following [W3 Guide](https://www.w3schools.com/html/html_favicon.asp).
+- 404 page created by [Github guide](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-custom-404-page-for-your-github-pages-site). 
+- [Calendly](https://calendly.com/) iframe was added following their guidelines.
+
+
+### Media
+
+- Pictures from Taísa Souza were taken and shared by her.
+
+### Acknowledgements
+
+- I want to say a big thank you to my mentor Martina for sharing her wisdom and to my friend Taísa for letting me use her brand to create this project.
