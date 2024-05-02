@@ -121,3 +121,20 @@ As this is a one page website a scroll to top button, using Javascript, was adde
 - When the brand is ready to launch and they start selling clothes, an ecommerce feature will be added. 
 
 Added favicon following https://www.w3schools.com/html/html_favicon.asp
+
+# Testing
+First HTML testing through W3 validator returned syntax errors with extra slashes added to the end of images which was related to the HTML version, which were fixed. Also returned errors related to Calendly iframe. The code in the iframe wasn't changed as it affected the calendar that is needed to book alterations. 
+
+No errors returned in the first CSS W3 validation.
+
+### Validator Testing
+
+Passed through validator landing page and thank you page. No errors in HTML for the thank you page. The errors on landing page are from Calendly iframe which is important to keep so it wasn't removed.
+
+![landingpage](https://beyondthesight.net/Mariana/Fashion/Images/read/htmlvalidation.png)
+![thankyoupage](https://beyondthesight.net/Mariana/Fashion/Images/read/thankyoupagevalidationhtml.png)
+
+No errors reported on CSS validation for both pages.
+
+![landingpagecss](https://beyondthesight.net/Mariana/Fashion/Images/read/cssvalidation.png)
+![thankyoupagecss](https://beyondthesight.net/Mariana/Fashion/Images/read/thankyoucss.png)
